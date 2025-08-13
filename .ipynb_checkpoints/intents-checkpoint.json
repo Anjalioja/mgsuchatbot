@@ -1,0 +1,554 @@
+{
+  "intents": [
+    {
+      "tag": "central-library",
+      "patterns": [
+        "Library kaha hai",
+        "Mujhe library ka location batao",
+        "Library kidhar hai",
+        "Library ka rasta kya hai",
+        "Where is the library",
+        "where library locate in university",
+        "library location to university main gate"
+      ],
+      "responses": [
+        "Central Library is near the Science Block, about 1.2 km  from the main gate ."
+      ]
+    },
+    {
+      "tag": "academic_block 1",
+      "patterns": [
+        "Academic block kaha hai",
+        "Mujhe academic building dikhani hai",
+        "Where is academic block first",
+        "Classroom block kidhar hai",
+        "computer science department kaha hai",
+        "enviroment department kaha hai ",
+        "zoology department kaha hai"
+      ],
+      "responses": [
+        "Academic Block is at the center of the campus, opposite to the Library."
+      ]
+    },
+
+    {
+
+      "tag": "academic_block 2",
+      "patterns": [
+        "Academic block kaha hai",
+        "Mujhe academic building dikhani hai",
+        "Where is academic block",
+        "Classroom block kidhar hai",
+        "Science arts block kaha hai"
+      ],
+      "responses": [
+        "Academic Block is at the center of the campus, opposite to the Library."
+      ]
+    },
+
+    {
+      "tag": "academic_block 3",
+      "patterns": [
+        "Academic block kaha hai",
+        "Mujhe academic building dikhani hai",
+        "Where is academic block",
+        "Classroom block kidhar hai",
+        "Science arts block kaha hai"
+      ],
+      "responses": [
+        "Academic Block is at the center of the campus, opposite to the Library."
+      ]
+    },
+
+    {
+      "tag": "academic_block 4",
+      "patterns": [
+        "Academic block kaha hai",
+        "Mujhe academic building dikhani hai",
+        "Where is academic block",
+        "Classroom block kidhar hai",
+        "Science arts block kaha hai"
+      ],
+      "responses": [
+        "Academic Block is at the center of the campus, opposite to the Library."
+      ]
+    },
+    
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Canteen kidhar hai",
+        "Mujhe kuch khana hai",
+        "Khaane ki jagah kaha hai",
+        "Where is the canteen",
+        "Cafeteria ka location batao",
+        "where locate canteen  in mgsu "
+      ],
+      "responses": [
+        "The canteen is located behind the Admin Block, approx. 250 meters from the Library."
+      ]
+    },
+    {
+      "tag": "VC Secretariat",
+      "patterns": [
+        "VC office kaha hai",
+        "Vice Chancellor ka office kidhar hai",
+        "Mujhe VC se milna hai",
+        "Where is the VC office",
+        "where is board sabhagar",
+        "whare is Conference Room",
+        "conference room kaha hai",
+        "board sabhagar kaha hai"
+      ],
+      "responses": [
+        "The VC Office is inside the Administrative Block, around 500 meters from the Academic Block."
+      ]
+    },
+    {
+      "tag": "Examination Block",
+      "patterns": [
+        "examination block kaha hai?",
+      "exam building ka location",
+      "examination hall ki location kya hai?",
+      "exam block kidhar hai?",
+      "where is examination block",
+      "Exam form kaha bharna ha"
+      ],
+      "responses": [
+        "The Admin Block is near the main entrance of the campus, opposite to the canteen."
+      ]
+    },
+    {
+      "tag": "girls hostel",
+      "patterns": [
+        " girls Hostel kaha hai",
+        "Mujhe girls hostel dikhana hai",
+        "Girls hostel kidhar hai",
+        "Where is girls hostel",
+        "Stay facility kaha hai"
+      ],
+      "responses": [
+        "The hostels are located on the north side of the campus, near the sports complex."
+      ]
+    },
+
+    {
+      "tag": "boys hostel",
+      "patterns": [
+        " boys Hostel kaha hai",
+        "Mujhe boys hostel dikhana hai",
+        "boys hostel kidhar hai",
+        "Where is  boys hostel",
+        "Stay facility kaha hai",
+        "boys hostel tak le chalo"
+      ],
+      "responses": [
+        "The hostels are located on the north side of the campus, near the sports complex."
+      ]
+    },
+    {
+      "tag": "Administrative Block",
+      "patterns": [
+        "Administrative block  kaha hai",
+        "where is administrative block",
+        "Where is registrar office ",
+        "registrar office kaha hai "
+      ],
+      "responses": [
+        "The Exam Cell is situated in the Admin Block, next to the Admission Office."
+      ]
+    },
+    {
+      "tag": "Guest House",
+      "patterns": [
+        "guest house kaha hai",
+        "guest ke rhne ke liye koi jagh  hai",
+        "Where is guest house",
+        "where university stay guest "
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Secrecy Block",
+      "patterns": [
+        "Secrecy Block kaha hai",
+        "secrecy block kya hai?",
+        "secrecy building ka kya kaam hai?",
+        "exam se related secrecy block ka role?",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "Secrecy Block exam-related confidential work ke liye hota hai like question paper banana, answer sheets security, and result processing।",
+        "Ye block examination block ke pass hai, jahan question papers and answer sheets manage kiya jata hai"
+      ]
+    },
+
+      {
+      "tag": "DSW Block (Dean Students Welfare)",
+      "patterns": [
+       "dsw kya hai?",
+      "student welfare block kaha hai?",
+      "dsw ka kya kaam hai?",
+      "where Dean Students Welfare "
+      ],
+      "responses": [
+        "DSW (Dean Student Welfare) Block student-related cultural, sports, aur welfare activities ko handle karta hai.",
+    "Yeh block students ke NSS, events, helpdesk aur samasyaon ka samadhan karta hai."
+
+      ]
+    },
+
+   {
+      "tag": "Research Block",
+      "patterns": [
+       "research block kaha hai?",
+    "research building ka kya kaam hai?",
+    "PhD ka research block kahan padta hai?",
+    "Where is research block  "
+      ],
+      "responses": [
+        "Research Block me PhD aur MPhil students ke liye sabhi research-related kaam hote hain.",
+    "Yeh block Academic Block 4 ke paas sthit hai aur research faculty ka main office bhi yahin hota hai."
+  ]
+    },
+
+
+  {
+      "tag": "VC House",
+      "patterns": [
+        "vc house  kaha hai",
+        "Vice Chancellor ka house kidhar hai",
+        "Where is vc house",
+        "in mgsu where vice chancellor stay"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Registrar House",
+      "patterns": [
+        "registrar house kaha hai",
+        "where registrar house ",
+        "Where is registrar stay",
+        "registrar kaha rhte hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Staff Quarters (4 units)",
+      "patterns": [
+        "any staff quarters available here",
+        "staff quaraters  kaha hai",
+        "Where is staff quarters ",
+        "staff ke rhne ke liye bhi koi jagh hai kya "
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Innovation Centre",
+      "patterns": [
+        "innovation centre kidhar hai",
+        "innovation centre ki location kaha hai",
+        "Where is  innovation centre",
+        "innovation centre location "
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Rajiv Gandhi Student Facility Centre",
+      "patterns": [
+        "Rajiv Gandhi Student Facility Centre kaha hai",
+        "Rajiv Gandhi Student Facility Centre location ",
+        "Where is Rajiv Gandhi Student Facility Centre",
+        "what work of rajiv gandhi student facility centre"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+
+
+     {
+      "tag": "Dispensary",
+      "patterns": [
+        "dispensary kaha hai",
+        "any dispensary locate in mgsu campus",
+        "Where is dispensary",
+        "dispensary ki location batao"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+     {
+      "tag": "PNB Bank Branch in campus ",
+      "patterns": [
+        "PNB Bank Branch in campus kaha hai",
+        "PNB Bank Branch in campus ki location ",
+        "Where is PNB Bank Branch in campus",
+        "Kya PNB Bank Branch  campus mai available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+     {
+      "tag": "Rajiv Gandhi Student Facility Centre",
+      "patterns": [
+        "Rajiv Gandhi Student Facility Centre kaha hai",
+        "any studdent facility centre ",
+        "Where is Rajiv Gandhi Student Facility Centre",
+        "Kya Rajiv Gandhi Student Facility Centre available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+     {
+      "tag": "Vivekanand Samark",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Savidhan Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Eco Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Ahimsa Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Nakshatra Vatika",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Rammat Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Sanskriti Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Constitution Park",
+      "patterns":[
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Subhash Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Cycling Velodrome",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Auditorium,meera bai sbhagaar",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+    {
+      "tag": "Sports Complex / Sports Block ",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": " Auditorium Academic Block first",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": " Auditorium Academic Block second",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag":" NIELIT (National Institute of Electronics & Information Technology)",
+      "patterns":[
+
+      ],
+      "responses":
+      [
+
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Shukriya",
+        "Bahut dhanyavaad",
+        "Thank you chatbot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "Always here to guide you at MGSU!"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Namaste",
+        "Good morning"
+      ],
+      "responses": [
+        "Hello! How can I help you on MGSU campus today?",
+        "Hi there! Ask me anything about MGSU locations.",
+        "Welcome! I'm your MGSU Campus Assistant."
+      ]
+    },
+    {
+      "tag": "no_match",
+      "patterns": [],
+      "responses": [
+        "Sorry, I couldn't understand. Please try asking in a different way."
+      ]
+    }
+  ]
+}

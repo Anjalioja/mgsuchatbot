@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MGSU Chatbot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='chat.css') }}">
+</head>
+<body>
+
+<div class="close-btn"><button onclick="window.parent.location.reload()" >X</button></div>
+
+<div class="chat-box">
+
+<div class="hero-section">
+    <div class="hero-content">
+      <h1>Welcome to MGSU</h1>
+      <p>Your Digital Buddy is here to help!</p>
+    </div>
+  </div>
+
+    
+    <!-- 🔐 Admin Panel Button -->
+<div class="history" >
+    <a href="/admin-login" target="_blank">
+        <button >
+            🔐 MGSU BUDDY HISTORY
+        </button>
+    </a>
+</div>
+
+    <!-- 🔵 QUICK NAVIGATION BUTTONS -->
+   <div class="button-group">
+    <form method="POST">
+        <input type="hidden" name="message" value="show library">
+        <input type="submit" value="📚 Library" />
+    </form>
+    <form method="POST">
+        <input type="hidden" name="message" value="show Examination Block">
+        <input type="submit" value="🏫 Examination Block" />
+    </form>
+
+</div>
+
+
+        <!-- 🔵 MAIN CHAT FORM -->
+    <form method="POST" class="chatform" >
+        <input type="text" name="message" id="message" placeholder=" I AM MGSU BUDDY , HOW CAN I HELP YOU"   value="{{ last_message }}" required />
+        <input type="submit" value="Send" />
+         <!-- 🔵 VOICE INPUT BUTTON -->
+         <button type="button" onclick="startListening()" id="mic-button">🎤</button>
+          <!-- 🔄 Language Selection -->
+        <select name="lang">
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+        </select>
+    </form>
+ 
+    <!-- 🔵 BOT RESPONSE -->
+    {% if bot_response %}
+        <div class="response">
+            <strong>Bot:</strong>
+            <div>{{ bot_response | safe }}</div>
+        </div>
+    {% endif %}
+</div>
+
+<!-- 🔵 VOICE RECOGNITION SCRIPT -->
+<script>
+    function startListening() {
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        if (!SpeechRecognition) {
+            alert("Your browser does not support speech recognition.");
+            return;
+        }
+
+        const recognition = new SpeechRecognition();
+        recognition.lang = "en-IN";
+        recognition.continuous = false;
+        recognition.interimResults = false;
+
+        const micButton = document.getElementById("mic-button");
+        micButton.innerText = "🎙️ Listening...";
+        recognition.start();
+
+        recognition.onresult = function(event) {
+            const transcript = event.results[0][0].transcript;
+            document.getElementById("message").value = transcript;
+            micButton.innerText = "🎤";
+        };
+
+        recognition.onerror = function(event) {
+            console.error("Speech recognition error:", event.error);
+            alert("Voice error: " + event.error);
+            micButton.innerText = "🎤";
+        };
+    }
+</script>
+ 
+</body>
+</html> 
+
+
+
+ 
+
+
+        
