@@ -1,0 +1,602 @@
+{
+  "intents": [
+
+    {
+  "tag": "library_location",
+  "patterns": [
+    "show library",
+    "library kaha hai",
+    "where is the library",
+    "mujhe library ka location chahiye",
+    "Library kidhar hai",
+    "Library ka rasta kya hai",
+     "Where is the library",
+    "where library locate in university",
+    "library location to university main gate",
+    "show me map of library ",
+    "library map"
+  ],
+  "responses": [
+    " 1.1 km to mgsu main gate 📚 MGSU Central Library Location: \n<iframe src=\"https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3521.6987087913512!2d73.25682577682774!3d28.033683125997086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x393fc3866ad3cea9%3A0x547779bf08f5b67e!2sMgsu%20central%20library%2C%20Antyodaya%20Nagar%2C%20Nathusar%20Rural%2C%20Rajasthan!3m2!1d28.036262899999997!2d73.2598786!4m5!1s0x393fc2c571553bb9%3A0x515f22a6d0cc0b56!2sNational%20Highway%2015%2C%20Jaisalmer%20Rd%2C%20Bikaner%2C%20Rajasthan%20334004!3m2!1d28.0311034!2d73.2593402!5e0!3m2!1sen!2sin!4v1752400057316!5m2!1sen!2sin\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+  ]
+},
+
+ {
+   "tag": "syllabus_download",
+   "patterns": [
+     "download syllabus", "syllabus pdf", "give me syllabus", "mgsu syllabus", "show syllabus"
+   ],
+   "responses": [
+     "Download your syllabus below:Here is the 📘 msc syllabus: <a href='/static/syllabus/msc_syllabus.pdf' target='_blank'>Download PDF</a>"
+]
+
+ },
+    
+    {
+      "tag": "academic_block 1",
+      "patterns": [
+        "Academic block 1 kaha hai",
+        "Mujhe academic building dikhani hai",
+        "Where is academic block first",
+        "Classroom block kidhar hai",
+        "computer science department kaha hai",
+        "enviroment department kaha hai ",
+        "Where is academic block 1"
+      ],
+      "responses": [
+        "Academic Block 1 location : \n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3521.8035769222747!2d73.2568493268277!3d28.030478725998904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc2bf53211329%3A0x10ebb7bce4137b8e!2sMGSU%20Entry%20Gate!5e0!3m2!1sen!2sin!4v1752412973592!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\"loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+
+    {
+
+      "tag": "academic_block 2",
+      "patterns": [
+        "Academic block 2 kaha hai",
+        "Where is academic block second",
+        "Classroom block kidhar hai",
+        "english department kaha hai",
+        "history department kaha hai ",
+        "Where is academic block 2",
+         "Which building is the history department?",
+          "Which building is the english department?"
+      ],
+      "responses": [
+        "Academic Block 2 location : \n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2870.5119416943344!2d73.25717868051373!3d28.030958587646264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc316426e50a1%3A0x782cb30ec7596de7!2sHistory%20Department!5e0!3m2!1sen!2sin!4v1752413247900!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+
+    {
+      "tag": "academic_block 3",
+      "patterns": [
+        "Academic block 3 kaha hai",
+        "Where is academic block third",
+        "yoga department kis building mai hai",
+        "Which building is the yoga department?",
+        "microbiology  department kis building mai hai",
+        "Which building is the microbiology department?",
+        "Which building is the commerace department?",
+        "where is MBA department",
+        "drawing department kaha hai",
+        "Which building is the drawing department?",
+        "zoology department kaha hai ",
+        "Which building is the zoology department?",
+        "Where is academic block 3"
+      ],
+      "responses": [
+        "Academic Block 3 location:\n <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1927.3162151845336!2d73.25855066486437!3d28.031659823795657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc3c725249deb%3A0x5ef516c508d4b2de!2sYoga%20Department!5e0!3m2!1sen!2sin!4v1752413864372!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+
+    {
+      "tag": "academic_block 4",
+      "patterns": [
+        "Academic block  4 kaha hai",
+        "where is llm department",
+        "Where is academic block four",
+        "law department kidhar hai",
+        "law school  kaha hai",
+        "law  department kaha hai ",
+        "Which building is the law department?",
+        "Which building is the llb department?",
+        "Which building is the geography  department?",
+        "geography department kaha hai",
+        "Which building is the ba-llb department?",
+        "Where is academic block 4"
+      ],
+      "responses": [
+        "Academic Block 4 location : \n <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2678.4942474423347!2d73.25807468284327!3d28.031110403794163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc30786c073ad%3A0x761adfa7f83d8d8c!2sL.L.B%20College%20and%20College%20department%20of%20geography!5e0!3m2!1sen!2sin!4v1752414393057!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+    
+    {
+      "tag": "canteen",
+      "patterns": [
+        "Canteen kidhar hai",
+        "Mujhe kuch khana hai",
+        "Khaane ki jagah kaha hai",
+        "Where is the canteen",
+        "Cafeteria ka location batao",
+        "where locate canteen  in mgsu ",
+        "please show me location of canteen "
+      ],
+      "responses": [
+        "canteen near the examination block . location of canteen\n .<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d403.6171640841832!2d73.26060959432805!3d28.030758576713346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc30786c073ad%3A0x761adfa7f83d8d8c!2sL.L.B%20College%20and%20College%20department%20of%20geography!5e0!3m2!1sen!2sin!4v1752415216852!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+    {
+      "tag": "VC Secretariat",
+      "patterns": [
+        "VC office kaha hai",
+        "Vice Chancellor ka office kidhar hai",
+        "Mujhe VC se milna hai",
+        "Where is the VC office",
+        "where is board sabhagar",
+        "whare is Conference Room",
+        "conference room kaha hai",
+        "board sabhagar kaha hai",
+        "show me location of vc office"
+      ],
+      "responses": [
+        "The VC Office around 450 meters from the main gate. location :\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d880.4550684116867!2d73.25708608689102!3d28.029968501957722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc2c0dc0bff31%3A0x8e20eb0952f3077d!2sUniversity%20Vice%20Chancellor%20Office!5e0!3m2!1sen!2sin!4v1752496418407!5m2!1sen!2sin\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+    {
+      "tag": "Examination Block ,pariksha bhawan",
+      "patterns": [
+        "examination block kaha hai?",
+      "exam building ka location",
+      "examination block ki location kya hai?",
+      "exam block kidhar hai?",
+      "where is examination block",
+      "Exam form kaha bharna ha",
+      "pariksha bhawan konsa hai",
+      "revalution form kaha jma hota hai",
+      "where is pariksha bhawan show me location "
+      ],
+      "responses": [
+        "The Examination Block is near the main entrance of the campus. pariksha bhawan named as  maharshi bhardwaj bhawan .location :\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1190.7782135870837!2d73.25817146801619!3d28.030424108247875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc2c71407b057%3A0x8fa994436cdf761c!2sPriksha%20Bhawan!5e0!3m2!1sen!2sin!4v1752497232968!5m2!1sen!2sin\" width=\"100%\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+    {
+      "tag": "girls hostel",
+      "patterns": [
+        " girls Hostel kaha hai",
+        "Mujhe girls hostel dikhana hai",
+        "Girls hostel kidhar hai",
+        "Where is girls hostel",
+        "Stay facility kaha hai"
+      ],
+      "responses": [
+        "yes hostel are available  in campus The hostels are located  near the guest house ."
+      ]
+    },
+
+    {
+      "tag": "boys hostel",
+      "patterns": [
+        " boys Hostel kaha hai",
+        "Mujhe boys hostel dikhana hai",
+        "boys hostel kidhar hai",
+        "Where is  boys hostel",
+        "Stay facility kaha hai",
+        "boys hostel tak le chalo"
+      ],
+      "responses": [
+        "  yes hostel are available  in campus The hostels are located  near the guest house ."
+      ]
+    },
+    {
+      "tag": "Academic department, prshashnik bhawan , Administrative block ",
+      "patterns": [
+        "Academic block  kaha hai",
+        "where is academic dapartment ",
+        "location of academic department ",
+        "prshashnik bhawan konsa hai ",
+        "where is prshashnik bhawan",
+        "where is administrative block"
+      ],
+      "responses": [
+        "Administrative department named as mhrishi atri bhawan . here is location :\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.11154959725678!2d73.25890805659083!3d28.03105270412809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc3ec0b7b0f9f%3A0xf20316c02f75dfbb!2sMahrishi%20Atri%20Bhawan!5e0!3m2!1sen!2sin!4v1752498893082!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+    {
+      "tag": "Guest House",
+      "patterns": [
+        "guest house kaha hai",
+        "guest ke rhne ke liye koi jagh  hai",
+        "Where is guest house",
+        "where university stay guest "
+      ],
+      "responses": [
+        "The guest house near Cycling Velodrome, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Secrecy Block",
+      "patterns": [
+        "Secrecy Block kaha hai",
+        "secrecy block kya hai?",
+        "secrecy building ka kya kaam hai?",
+        "exam se related secrecy block ka role?",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "Secrecy Block exam-related confidential work ke liye hota hai like question paper banana, answer sheets security, and result processing। Ye block examination block ke pass hai, jahan question papers and answer sheets manage kiya jata hai"
+      ]
+    },
+
+      {
+      "tag": "DSW Block (Dean Students Welfare)",
+      "patterns": [
+       "dsw kya hai?",
+      "student welfare block kaha hai?",
+      "dsw ka kya kaam hai?",
+      "where Dean Students Welfare "
+      ],
+      "responses": [
+        "DSW (Dean Student Welfare) Block student-related cultural, sports, aur welfare activities ko handle karta hai.Yeh block students ke NSS, events, helpdesk aur samasyaon ka samadhan karta hai."
+
+      ]
+    },
+
+   {
+      "tag": "Research Block",
+      "patterns": [
+       "research block kaha hai?",
+    "research building ka kya kaam hai?",
+    "PhD ka research block kahan padta hai?",
+    "Where is research block  "
+      ],
+      "responses": [
+        "Research Block me PhD aur MPhil students ke liye sabhi research-related kaam hote hain."
+  ]
+    },
+
+
+  {
+      "tag": "VC House",
+      "patterns": [
+        "vc house  kaha hai",
+        "Vice Chancellor ka house kidhar hai",
+        "Where is vc house",
+        "in mgsu where vice chancellor stay"
+      ],
+      "responses": [
+        "VC house  in mgsu campus. near guest house "
+      ]
+    },
+
+    {
+      "tag": "Registrar House",
+      "patterns": [
+        "registrar house kaha hai",
+        "where registrar house ",
+        "Where is registrar stay",
+        "registrar kaha rhte hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Staff Quarters (4 units)",
+      "patterns": [
+        "any staff quarters available here",
+        "staff quaraters  kaha hai",
+        "Where is staff quarters ",
+        "staff ke rhne ke liye bhi koi jagh hai kya "
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Innovation Centre",
+      "patterns": [
+        "innovation centre kidhar hai",
+        "innovation centre ki location kaha hai",
+        "Where is  innovation centre",
+        "innovation centre location "
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Rajiv Gandhi Student Facility Centre",
+      "patterns": [
+        "Rajiv Gandhi Student Facility Centre kaha hai",
+        "Rajiv Gandhi Student Facility Centre location ",
+        "Where is Rajiv Gandhi Student Facility Centre",
+        "what work of rajiv gandhi student facility centre"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+
+
+     {
+      "tag": "Dispensary",
+      "patterns": [
+        "dispensary kaha hai",
+        "any dispensary locate in mgsu campus",
+        "Where is dispensary",
+        "dispensary ki location batao"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+     {
+      "tag": "PNB Bank Branch in campus ",
+      "patterns": [
+        "PNB Bank Branch in campus kaha hai",
+        "PNB Bank Branch in campus ki location ",
+        "Where is PNB Bank Branch in campus",
+        "Kya PNB Bank Branch  campus mai available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+     {
+      "tag": "Vivekanand Samark",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Savidhan Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Eco Park",
+      "patterns": [
+        "eco park kaha hai",
+        "eco park ki location",
+        "Where is eco park",
+        "Kya koi eco park  hai"
+      ],
+      "responses": [
+        "Eco park near vc office. location :.\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d368.4440012467831!2d73.25689546190625!3d28.030277366054097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc30035b04c9f%3A0x4802be1c421554b!2sEco%20park!5e0!3m2!1sen!2sin!4v1752498052944!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+
+    {
+      "tag": "Ahimsa Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Nakshatra Vatika",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Rammat Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Gandhi statue",
+      "patterns": [
+        "gandhi statue  kaha hai",
+        "mahatma gandhi park konsa hai",
+        "Where is gandhi statue "
+      ],
+      "responses": [
+        "mahatma gandhi statue opposite the eco park . location :\n<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d650.941280049209!2d73.25639287154013!3d28.03031838720261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc3ad3d2fc603%3A0x505fa571c400d4a4!2sGandhiji%20Statue!5e0!3m2!1sen!2sin!4v1752498421012!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+
+    {
+      "tag": "Constitution Park",
+      "patterns":[
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Subhash Park",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+
+    {
+      "tag": "Cycling Velodrome",
+      "patterns": [
+        "Cycling Velodrome kaha hai",
+        "Cycling Velodrome ki jagah kaha hai",
+        "Where is Cycling Velodrome",
+        "Kya Cycling Velodrome available hai",
+        "location of Cycling velodrome"
+      ],
+      "responses": [
+        " The cycling velodrome is behind the examination building. ",
+        "location : /n <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1071.9399409735722!2d73.26037096876198!3d28.03086924746485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc3003681e287%3A0xd95b9b80898f2707!2sMGSU%20cycle%20velodrome!5e0!3m2!1sen!2sin!4v1752500109939!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+
+    {
+      "tag": "Auditorium,meera bai sbhagaar",
+      "patterns": [
+        "Sports ground kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya cricket ground available hai"
+      ],
+      "responses": [
+        "The sports ground is on the west side of the campus, close to the hostel."
+      ]
+    },
+    {
+      "tag": "Sports Complex / Sports Block  ,Indoor stadium",
+      "patterns": [
+        "Indoor stadium kaha hai",
+        "Khelne ki jagah kaha hai",
+        "Where is playground",
+        "Kya Indoor stadium available hai"
+      ],
+      "responses": [
+        "Indoor stadium Maharaja Ganga Singh University location :.\n <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2313.7480132698965!2d73.25897878473718!3d28.031573843655536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc3001c886bb3%3A0x5007ef6e58e56d3c!2sIndoor%20stadium%20Maharaja%20Ganga%20Singh%20University!5e0!3m2!1sen!2sin!4v1752500503155!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+      
+    {
+      "tag": "auditorium_academic_block_first",
+      "patterns": [
+        "auditorium kaha hai",
+        "academic block ka auditorium kahan hai",
+        "where is the auditorium in academic block",
+        "first auditorium in academic block",
+        "academic block first floor auditorium location"
+      ],
+      "responses": [
+        "Auditorium Academic Block First Floor par situated hai. Yeh seminar, conference aur cultural programs ke liye use hota hai. Academic Block ke first floor par auditorium located hai. Yahan par kai events aur lectures hote hain. Aap Academic Block ke first floor par jayen, auditorium wahin par hai."
+      ],
+      "context_set": ""
+    },
+
+   {
+ 
+      "tag": "auditorium_academic_block_second",
+      "patterns": [
+        "auditorium kaha hai .academic block  second  ka auditorium kahan hai .where is the auditorium in academic block .second  auditorium in academic block .academic block second  auditorium location"
+      ],
+      "responses": [
+        "Auditorium Academic Block First Floor par situated hai. Yeh seminar, conference aur cultural programs ke liye use hota hai.",
+        "Academic Block ke first floor par auditorium located hai. Yahan par kai events aur lectures hote hain.",
+        "Aap Academic Block ke first floor par jayen, auditorium wahin par hai."
+      ]
+      
+},
+    {
+ "tag":" NIELIT (National Institute of Electronics & Information Technology)",
+ "patterns":[
+  "nielit block kaha hai",
+  "where is nielit room in mgsu",
+  "mgsu me nielit lab kidhar hai",
+  "nielit class ka location kya hai",
+  "how to find nielit in mgsu"
+
+ ],
+      "responses":
+      [
+        "NIELIT Location :\n <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d621.0775426790342!2d73.26443422715954!3d28.03017638259902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fc3005dfec92b%3A0x6bf15634ecb3e15a!2sNIELT%20EXAM%20CENTER%2C%20INNOVATION%20CENTER%20MGSU%2C%20BIKANER!5e0!3m2!1sen!2sin!4v1752503544954!5m2!1sen!2sin\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Shukriya",
+        "Bahut dhanyavaad",
+        "Thank you chatbot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "Always here to guide you at MGSU!"
+      ]
+    },
+    {
+      "tag": "greeting, hello",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Namaste",
+        "Good morning"
+      ],
+      "responses": [
+        "Hello! How can I help you on MGSU campus today?",
+        "Hi there! Ask me anything about MGSU locations.",
+        "Welcome! I'm your MGSU Campus Assistant.",
+         "You're welcome!",
+        "Always here to guide you at MGSU!"
+      ]
+    },
+
+    {
+      "tag": "calendar",
+      "patterns": [
+        "show events", "campus events", "calendar", "event schedule"
+      ],
+      "responses": [
+        "Here's the event calendar:<br><iframe src=\"https://calendar.google.com/calendar/embed?src=your_email@gmail.com\" style=\"border:0\" width=\"100%\" height=\"300\" frameborder=\"0\" scrolling=\"no\"></iframe>"
+      ]
+    },
+     {
+      "tag": "no_match",
+      "patterns": [],
+      "responses": [
+        "Sorry, I couldn't understand. Please try asking in a different way."
+      ]
+    }
+  ]
+}
+
+
