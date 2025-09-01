@@ -28,15 +28,21 @@ It provides quick information to students and staff about university buildings, 
 **Home Page / Chat Interface**  
 ![Home Screenshot](project_images/image1.png)
 
-**Admin Panel**  
+**chatbot Panel**  
 ![chatbot Screenshot](project_images/image2.png)
 
-**Syllabus Download Page**  
+**chatbot panel**  
 ![chatbot Screenshot](project_images/image3.png)
 
 > *Note: Replace `screenshots/...` with actual image paths from your project.*
 
 ---
+Contributing :
+Add new intents
+Improve the chatbot AI
+Enhance the UI/UX
+Add new features like notifications or event reminders
+
 
 ## Installation
 
@@ -59,12 +65,3 @@ mgsuchatbot/
 ├─ static/              # CSS, JS, images
 ├─ screenshots/         # Screenshot images for README
 └─ README.md
-Contributing
-
-Add new intents
-
-Improve the chatbot AI
-
-Enhance the UI/UX
-
-Add new features like notifications or event reminders
